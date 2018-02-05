@@ -1,0 +1,163 @@
+/*header with logo here at the top of page*/
+header{
+  height: 300px;
+  padding-top: 50px;
+/*  background: #f07057;*/
+}
+
+/*making the navbar sticky*/
+.main-nav {
+     position: relative; 
+    padding: 1%;
+    padding-bottom: 1%;
+    padding-left: 7%;
+  /*background: #fff;*/
+  z-index: 150;
+  margin-bottom: 1%;
+/*  box-shadow: 0 2px 3px rgba(0,0,0,.4);*/
+    height: 80px;
+  width: 100%;
+}
+
+.navImage{
+    top: 0;
+    position: fixed;
+    width: 100%;
+    height: 250px;
+    z-index: 150;
+}
+header,
+.main-nav-scrolled {
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+/* content and navbar should take over the header if scrolled down*/
+.main-nav{
+
+ 
+}
+#zasTitle {
+	font-size: 2em;
+	color: #cc0000;
+	text-align: center;
+
+}
+.panel > .panel-heading {
+    background-image: none;
+    background-color: black;
+    color: white;
+     border-color : black;
+
+}
+
+.panel-primary {
+     border-color: black;
+}
+
+.btn-primary {
+
+	background: black;
+}
+
+
+.btn-primary:hover {
+    background-color: #2d2828;
+
+}
+.btn-primary:link {
+    color: red;
+}
+
+/*Modal style goes here*/
+.form-signin
+{
+    max-width: 330px;
+    padding: 15px;
+    margin: 0 auto;
+}
+.form-signin .form-signin-heading, .form-signin .checkbox
+{
+    margin-bottom: 10px;
+}
+.form-signin .checkbox
+{
+    font-weight: normal;
+}
+.form-signin .form-control
+{
+    position: relative;
+    font-size: 16px;
+    height: auto;
+    padding: 10px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.form-signin .form-control:focus
+{
+    z-index: 2;
+}
+.form-signin input[type="text"]
+{
+    margin-bottom: -1px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.form-signin input[type="password"]
+{
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+.account-wall
+{
+    margin-top: 20px;
+    padding: 40px 0px 20px 0px;
+    background-color: #f7f7f7;
+    -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+}
+.login-title
+{
+    color: #555;
+    font-size: 18px;
+    font-weight: 400;
+    display: block;
+}
+.profile-img
+{
+    width: 96px;
+    height: 96px;
+    margin: 0 auto 10px;
+    display: block;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+}
+
+.new-account
+{
+    display: block;
+    margin-top: 10px;
+}
+
+
+/*user registeration*/
+
+body {
+ margin: 0;
+ padding-top: 250px; 
+
+}
+.form-control { margin-bottom: 10px; }
+
+
+/* login query*/
+/*@media all and (max-width: 1024px) {
+    #loginPage {
+        width: 100%;
+        height: 100%;
+    }
+}*/
