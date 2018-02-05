@@ -18,33 +18,27 @@
             .state('home', {
                 url: "/home",
                 templateUrl: "app/partials/Home.html",
-                controller: 'ZASWirelessController',
-                controllerAs: 'vm'
+
             })
            
             .state('home.inventory', {
                 url: "/inventory",
                 templateUrl: "app/partials/Inventory.html",
                  parent: "home",
-                controller: 'ZASWirelessController',
-                controllerAs: 'vm'
+
             })
 
-             .state('home.contact', {
+            .state('home.contact', {
                 url: "/customer",
                 templateUrl: "app/partials/Contact.html",
                  parent: "home",
-                controller: 'ZASWirelessController',
-                controllerAs: 'vm'
-            })
 
-              .state('home.direction', {
+            })
+            .state('home.direction', {
                 url: "/direction",
                 templateUrl: "app/partials/Direction.html",
                  parent: "home",
-                controller: 'ZASWirelessController',
-                controllerAs: 'vm'
-            });
 
+            });
       });
 })();
